@@ -1,0 +1,13 @@
+dorami-report-fmt NOTICE
+
+This project may refer to ideas from epoko77-ai/im-not-ai, a public repository focused on Korean AI-like phrasing cleanup and Korean prose rewriting patterns.
+
+Reference checked:
+- Repository: https://github.com/epoko77-ai/im-not-ai
+- License observed on 2026-06-14: MIT License, Copyright (c) 2026 epoko77-ai
+
+No source file or long-form text from im-not-ai is intentionally copied into this repository. Concepts such as reducing Korean translationese, repetitive connector use, mechanical list structures, excessive modifiers, and boilerplate Korean phrasing are reinterpreted here for the narrower purpose of Korean report style and report structure refinement.
+
+If future maintainers copy any code, pattern tables, or substantial text from im-not-ai or another project, they must preserve the original license and attribution in this NOTICE.
+
+The purpose of this project is Korean report prose and report format refinement. Public releases do not include users' real report examples, raw HWP/HWPX files, converted Markdown files, or redacted local examples.

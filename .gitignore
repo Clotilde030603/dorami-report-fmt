@@ -1,0 +1,16 @@
+*.hwp
+*.hwpx
+private/
+local-references/
+converted-examples/
+redacted-examples/
+raw/
+tmp/
+*.unredacted.md
+*_unredacted.md
+*_raw.md
+.DS_Store
+__pycache__/
+*.pyc
+.pytest_cache/
+.omx/
