@@ -39,7 +39,7 @@ README_REQUIRED = [
     "Claude Code에서 등록하는 방법",
     "Gajae Code에서 사용하는 방법",
     "기타 AI에서 사용하는 방법",
-    "HWP/HWPX를 Markdown으로 변환하는 방법",
+    "개발자용 로컬 도구",
 ]
 
 GITIGNORE_REQUIRED = ["private/", "*.hwp", "*.hwpx"]
