@@ -35,11 +35,13 @@ REQUIRED_FILES = [
 ]
 
 README_REQUIRED = [
-    "Codex에서 등록하는 방법",
-    "Claude Code에서 등록하는 방법",
-    "Gajae Code에서 사용하는 방법",
-    "기타 AI에서 사용하는 방법",
-    "개발자용 로컬 도구",
+    "이런 때 사용하세요",
+    "설치 방법",
+    "Codex",
+    "Claude Code",
+    "Gajae Code 및 기타 AI에서 사용",
+    "사용 예시",
+    "도라미 보고서체 기준",
 ]
 
 GITIGNORE_REQUIRED = ["private/", "*.hwp", "*.hwpx"]
