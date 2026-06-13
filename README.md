@@ -103,15 +103,20 @@ AI식 상투 표현은 줄이고, 객관적인 보고서 문체로 정리해줘.
 
 더 자세한 기준은 `skills/dorami-report-fmt/references/` 폴더에서 확인할 수 있습니다.
 
-## 저장소 구조
+## 참고한 프로젝트
 
-```text
-skills/dorami-report-fmt/   # 원본 스킬
-.agents/skills/             # Codex 프로젝트 스킬
-.claude/skills/             # Claude Code 프로젝트 스킬
-prompts/                    # 복붙용 프롬프트
-portable/                   # 단일 파일 버전
-```
+이 스킬은 한국어 AI식 표현을 줄이는 아이디어와 관련해
+[`epoko77-ai/im-not-ai`](https://github.com/epoko77-ai/im-not-ai)를 참고했습니다.
+
+다만 `dorami-report-fmt`는 일반적인 문장 변환 도구가 아니라,
+한국어 보고서 문체와 구조를 자연스럽게 다듬는 데 초점을 둡니다.
+
+## 사용 책임
+
+이 스킬은 보고서 문체를 다듬기 위한 보조 도구입니다.
+최종 제출 전 사실관계, 표현 적절성, 인용·출처, 개인정보 포함 여부는 사용자가 직접 확인해야 합니다.
+
+이 스킬 사용으로 발생하는 결과와 책임은 사용자에게 있습니다.
 
 ## 라이선스
 
