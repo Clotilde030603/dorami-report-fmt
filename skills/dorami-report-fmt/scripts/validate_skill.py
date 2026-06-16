@@ -14,6 +14,8 @@ REQUIRED_FILES = [
     "skills/dorami-report-fmt/references/report-template.md",
     "skills/dorami-report-fmt/references/ai-like-phrasing-guide.md",
     "skills/dorami-report-fmt/references/local-reference-guide.md",
+    "skills/dorami-report-fmt/references/benchmark-guide.md",
+    "skills/dorami-report-fmt/references/style-extraction-loop.md",
     ".agents/skills/dorami-report-fmt/SKILL.md",
     ".claude/skills/dorami-report-fmt/SKILL.md",
     "prompts/README.md",
@@ -35,13 +37,17 @@ REQUIRED_FILES = [
 ]
 
 README_REQUIRED = [
-    "이런 때 사용하세요",
-    "설치 방법",
-    "Codex",
-    "Claude Code",
+    "dorami-report-fmt란?",
+    "주요 기능",
+    "하지 않는 일",
+    "설치",
     "Gajae Code 및 기타 AI에서 사용",
     "사용 예시",
-    "도라미 보고서체 기준",
+    "내부 처리 흐름",
+    "im-not-ai와의 관계",
+    "저장소 구조",
+    "개발 문서",
+    "검증",
 ]
 
 GITIGNORE_REQUIRED = ["private/", "*.hwp", "*.hwpx"]

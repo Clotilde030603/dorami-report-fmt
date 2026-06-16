@@ -32,6 +32,7 @@ description: Rewrite Korean report drafts into a natural, objective, structured 
 - 필요할 경우 “~로 볼 수 있다”, “~로 판단된다”, “~할 필요가 있다”, “~한 점에서 의미가 있다” 같은 신중한 보고서 표현을 사용한다.
 - 예시 문서나 참고 문장을 그대로 복사하지 않는다.
 - 이 스킬의 목적을 문서 판별 시스템 회피로 설명하지 않는다.
+- `im-not-ai`를 별도 후처리로 실행하라고 안내하지 않는다.
 
 ## 작업 유형 구분
 
@@ -67,3 +68,12 @@ description: Rewrite Korean report drafts into a natural, objective, structured 
 - 결론은 핵심 요약뿐 아니라 기대효과, 활용 가능성, 향후 검토 과제를 함께 정리한다.
 - 같은 연결 표현과 종결어미가 반복되면 문장 구조와 문단 순서를 조정한다.
 - 참고 문장이나 예시 문장을 그대로 복사하지 않고, 사용자가 제공한 원문의 의미를 유지한다.
+
+## Internal editing flow
+
+1. Preserve the original meaning and factual claims.
+2. Identify the target report format and purpose.
+3. Reduce generic AI-like phrasing, translationese, repetitive endings, and mechanical transitions as an internal writing guideline.
+4. Apply Dorami report tone and report structure.
+5. Review the result for objective Korean report style.
+6. Do not recommend running `im-not-ai` as a separate post-processing step.
